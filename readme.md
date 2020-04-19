@@ -6,10 +6,11 @@ This is a small, simple breakout for the Microchip (formerly Atmel) [ATSAMD21E][
 
 [ATSAMD21E]: https://www.microchip.com/wwwproducts/en/ATSAMD21E18
 
-Most I/O pins are broken out, with the exception of PA00/01 (XIN32 and XOUT32 for the watch crystal), PA24/25 (D- and D+ for USB), and PA30/31 (SWCLK and SWDIO for the SWD interface). The only components that must be populated are the capacitors, but I included the regulator, crystal, reset button, and USB port for convenience.
+Most I/O pins are broken out, with the exception of PA00/01 (XIN32 and XOUT32 for the watch crystal) and PA24/25 (D- and D+ for USB). The SWD interface is available via either the header, or through the [SOICbite][] connector opposite the USB footprint. Only C2-C5 need to be populated to get the microcontroller working, but the regulator, crystal, reset button, and USB jack make things a bit more convenient. 
 
 This design is based on Adafruit's [Trinket M0][] as well as Technoblogy's Minimal [ATSAMD21 Computer][minimalcomp].
 
+[SOICbite]: https://github.com/SimonMerrett/SOICbite/
 [Trinket M0]: https://www.adafruit.com/product/3500
 [minimalcomp]: http://www.technoblogy.com/show?2833
 
