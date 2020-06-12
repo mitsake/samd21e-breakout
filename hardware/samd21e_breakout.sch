@@ -19,7 +19,7 @@ U 1 1 5E93B05D
 P 4000 2150
 F 0 "U2" H 3450 3250 50  0000 C CNN
 F 1 "ATSAMD21E18A" H 4550 3250 50  0000 C CNN
-F 2 "minimal_samd21_breakout:TQFP-32_NoSilk" H 5100 2900 50  0001 C CNN
+F 2 "samd21e_breakout:TQFP-32_NoSilk" H 5100 2900 50  0001 C CNN
 F 3 "" V 4000 3050 50  0001 C CNN
 	1    4000 2150
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5E940F93
 P 4200 700
 F 0 "C5" V 4250 800 50  0000 C CNN
 F 1 "1u" V 4150 800 50  0000 C CNN
-F 2 "minimal_samd21_breakout:C_0603_NoSilk" H 4200 700 50  0001 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 4200 700 50  0001 C CNN
 F 3 "~" H 4200 700 50  0001 C CNN
 	1    4200 700 
 	-1   0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5E95A4BE
 P 3800 700
 F 0 "C3" V 3850 850 50  0000 R CNN
 F 1 "0.1u" V 3750 900 50  0000 R CNN
-F 2 "minimal_samd21_breakout:C_0603_NoSilk" H 3800 700 50  0001 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 3800 700 50  0001 C CNN
 F 3 "~" H 3800 700 50  0001 C CNN
 	1    3800 700 
 	-1   0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5E961DB6
 P 750 1000
 F 0 "J1" H 807 1467 50  0000 C CNN
 F 1 "USB_B_Micro" H 807 1376 50  0000 C CNN
-F 2 "minimal_samd21_breakout:Molex-105017-0001" H 900 950 50  0001 C CNN
+F 2 "samd21e_breakout:Molex-105017-0001" H 900 950 50  0001 C CNN
 F 3 "~" H 900 950 50  0001 C CNN
 	1    750  1000
 	1    0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 5E977719
 P 1350 1000
 F 0 "C1" H 1258 954 50  0000 R CNN
 F 1 "10u" H 1258 1045 50  0000 R CNN
-F 2 "minimal_samd21_breakout:C_0603_NoSilk" H 1350 1000 50  0001 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 1350 1000 50  0001 C CNN
 F 3 "~" H 1350 1000 50  0001 C CNN
 	1    1350 1000
 	-1   0    0    1   
@@ -106,7 +106,7 @@ U 1 1 5E97DFBA
 P 1950 900
 F 0 "U1" H 1950 1242 50  0000 C CNN
 F 1 "AP2112K-3.3" H 1950 1151 50  0000 C CNN
-F 2 "minimal_samd21_breakout:SOT-23-5_NoSilk" H 1950 1225 50  0001 C CNN
+F 2 "samd21e_breakout:SOT-23-5_NoSilk" H 1950 1225 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 1950 1000 50  0001 C CNN
 	1    1950 900 
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 5E9A4897
 P 2350 1000
 F 0 "C2" H 2258 954 50  0000 R CNN
 F 1 "10u" H 2258 1045 50  0000 R CNN
-F 2 "minimal_samd21_breakout:C_0603_NoSilk" H 2350 1000 50  0001 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 2350 1000 50  0001 C CNN
 F 3 "~" H 2350 1000 50  0001 C CNN
 	1    2350 1000
 	-1   0    0    1   
@@ -176,12 +176,12 @@ $EndComp
 $Comp
 L Device:Crystal_Small Y1
 U 1 1 5E95328C
-P 5000 1200
-F 0 "Y1" V 4950 1400 50  0000 R CNN
-F 1 "32.768 kHz" V 5050 1700 50  0000 R CNN
-F 2 "minimal_samd21_breakout:CM7V-T1A" H 5000 1200 50  0001 C CNN
-F 3 "~" H 5000 1200 50  0001 C CNN
-	1    5000 1200
+P 6000 3000
+F 0 "Y1" V 5950 2900 50  0000 R CNN
+F 1 "32.768 kHz" V 6050 2900 50  0000 R CNN
+F 2 "samd21e_breakout:CM7V-T1A" H 6000 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -190,7 +190,7 @@ U 1 1 5E9E5F5A
 P 5550 1500
 F 0 "J3" H 5800 900 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 5800 1000 50  0000 C CNN
-F 2 "minimal_samd21_breakout:SOIC_clipProgSmall" H 5550 1500 50  0001 C CNN
+F 2 "samd21e_breakout:SOIC_clipProgSmall" H 5550 1500 50  0001 C CNN
 F 3 "~" H 5550 1500 50  0001 C CNN
 	1    5550 1500
 	1    0    0    -1  
@@ -244,7 +244,7 @@ U 1 1 5E97930D
 P 4000 700
 F 0 "C4" V 4050 850 50  0000 R CNN
 F 1 "0.1u" V 3950 900 50  0000 R CNN
-F 2 "minimal_samd21_breakout:C_0603_NoSilk" H 4000 700 50  0001 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 4000 700 50  0001 C CNN
 F 3 "~" H 4000 700 50  0001 C CNN
 	1    4000 700 
 	-1   0    0    1   
@@ -314,14 +314,6 @@ Wire Wire Line
 	3800 600  4000 600 
 Connection ~ 4000 600 
 Wire Wire Line
-	4800 1300 5000 1300
-Wire Wire Line
-	5000 1100 4900 1100
-Wire Wire Line
-	4900 1100 4900 1200
-Wire Wire Line
-	4900 1200 4800 1200
-Wire Wire Line
 	4000 600  4200 600 
 Connection ~ 4200 600 
 Wire Wire Line
@@ -334,7 +326,7 @@ U 1 1 5E9788EB
 P 1550 3250
 F 0 "J2" H 1658 4631 50  0000 C CNN
 F 1 "Conn_01x26_Male" H 1658 4540 50  0000 C CNN
-F 2 "minimal_samd21_breakout:PinHeader_2x13_Breadboard_Spaced" H 1550 3250 50  0001 C CNN
+F 2 "samd21e_breakout:PinHeader_2x13_Breadboard_Spaced" H 1550 3250 50  0001 C CNN
 F 3 "~" H 1550 3250 50  0001 C CNN
 	1    1550 3250
 	1    0    0    -1  
@@ -569,7 +561,7 @@ U 1 1 5E96DFF7
 P 5100 2300
 F 0 "SW1" V 5054 2448 50  0000 L CNN
 F 1 "SW_Push" V 5145 2448 50  0000 L CNN
-F 2 "minimal_samd21_breakout:SW_Push_Alps_SKRK_NoSilk" H 5100 2500 50  0001 C CNN
+F 2 "samd21e_breakout:SW_Push_Alps_SKRK_NoSilk" H 5100 2500 50  0001 C CNN
 F 3 "~" H 5100 2500 50  0001 C CNN
 	1    5100 2300
 	0    1    1    0   
@@ -584,5 +576,75 @@ F 2 "" H 5100 2500 50  0001 C CNN
 F 3 "" H 5100 2500 50  0001 C CNN
 	1    5100 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5EE41B8D
+P 6200 2800
+F 0 "C6" V 5971 2800 50  0000 C CNN
+F 1 "10p" V 6062 2800 50  0000 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 6200 2800 50  0001 C CNN
+F 3 "~" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 2900 6000 2800
+Wire Wire Line
+	6000 2800 6100 2800
+Wire Wire Line
+	6000 3100 6000 3200
+Wire Wire Line
+	6000 3200 6100 3200
+Connection ~ 6000 3200
+Connection ~ 6000 2800
+Text Label 5150 1200 2    50   ~ 0
+XIN32
+Text Label 5150 1300 2    50   ~ 0
+XOUT32
+Wire Wire Line
+	4800 1200 5150 1200
+Wire Wire Line
+	4800 1300 5150 1300
+Text Label 5550 2800 0    50   ~ 0
+XIN32
+Text Label 5550 3200 0    50   ~ 0
+XOUT32
+Wire Wire Line
+	5550 2800 6000 2800
+Wire Wire Line
+	5550 3200 6000 3200
+$Comp
+L Device:C_Small C7
+U 1 1 5EE68034
+P 6200 3200
+F 0 "C7" V 6429 3200 50  0000 C CNN
+F 1 "10p" V 6338 3200 50  0000 C CNN
+F 2 "samd21e_breakout:C_0603_NoSilk" H 6200 3200 50  0001 C CNN
+F 3 "~" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 2800 6400 2800
+Wire Wire Line
+	6400 2800 6400 3000
+Wire Wire Line
+	6400 3200 6300 3200
+Wire Wire Line
+	6400 3000 6500 3000
+Connection ~ 6400 3000
+Wire Wire Line
+	6400 3000 6400 3200
+$Comp
+L power:GND #PWR0106
+U 1 1 5EE7625D
+P 6500 3000
+F 0 "#PWR0106" H 6500 2750 50  0001 C CNN
+F 1 "GND" H 6505 2827 50  0000 C CNN
+F 2 "" H 6500 3000 50  0001 C CNN
+F 3 "" H 6500 3000 50  0001 C CNN
+	1    6500 3000
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

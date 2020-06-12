@@ -20,3 +20,6 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Gerber files - for now
+hardware/gerbers/
