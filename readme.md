@@ -1,7 +1,5 @@
 # Small SAMD21 breakout
 
-**Note: I'm waiting for PCBs to arrive, so this project is currently untested.**
-
 This is a small, simple breakout for the Microchip (formerly Atmel) [ATSAMD21E][] series of chips in the TQFP package. I designed it mostly for something to do while locked down at home, but also so that I could use the bare ICs I had spare from previous projects.
 
 [ATSAMD21E]: https://www.microchip.com/wwwproducts/en/ATSAMD21E18
@@ -21,6 +19,7 @@ This design is based on Adafruit's [Trinket M0][] as well as Technoblogy's Minim
 | C1, C2    | 2        | 10 μF, > 6 V               | 0603                        |
 | C3, C4    | 2        | 1 μF, > 4 V                | 0603                        |
 | C5        | 1        | 0.1 μF, > 4 V              | 0603                        |
+| C6, C7    | 2        | 10 pF, > 4 V               | 0603                        |
 | J1        | 1        | Micro-USB jack             | [Molex 105017-0001][1]      |
 | SW1       | 1        | Push switch                | [Alps SKRKAEE020][2]        |
 | U1        | 1        | AP2112K-3.3                | SOT23-5                     |
